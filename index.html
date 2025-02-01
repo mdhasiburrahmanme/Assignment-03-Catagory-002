@@ -56,7 +56,7 @@
 </head>
 <body class="font-sora" data-theme="light">
 
-    <header class=" bg-gradient-to-b from-[#fff] to-blue-500">
+    <header class="bg-gradient-to-b from-[#fff] to-blue-500">
 
 
 
@@ -66,8 +66,7 @@
                 <!-- Navbar -->
                 <div class="navbar shadow-md md:shadow-none">
                     <div class="navbar-start">
-                      
-                      <a class="btn btn-ghost text-xl hidden md:block"><img src="./assets/logo-header.png" alt=""></a>
+                      <a class="cursor-pointer text-xl hidden md:block"><img src="./assets/logo-header.png" alt=""></a>
                       <a class="btn btn-ghost text-xl md:hidden"><img src="./assets/logo mini.png" alt=""></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
@@ -111,9 +110,9 @@
                           </li>
                           <li><a>Item 3</a></li>
                         </ul>
-                      </div>
-                  </div>
+                    </div>
                 </div>
+            </div>
         
         
         
@@ -123,7 +122,7 @@
                     <div class="hero-content p-0 pt-4 text-center ">
                         <div class="max-w-3xl">
                             <div class="p-4">
-                                <h1 class="text-5xl font-bold">Freshness <span class="text-green-600">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+                                <h1 class="text-3xl md:text-5xl  font-bold animate-bounce">Freshness <span class="text-blue-700 animate-pulse">You Can <br> Count</span> On, Prices You’ll Love!</h1>
                                 <p class="py-6">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
                             </div>
                             <div>
@@ -202,12 +201,12 @@
 
 
 
-                <div class="card bg-base-100 md:w-2/5 h-[345px] shadow-xl bg-green-300">
+                <div class="card bg-base-100 md:w-2/5 h-[345px] shadow-xl bg-gradient-to-br from-green-700 to-green-300">
                     <div class="card-body bg-no-repeat bg-right-bottom p-8" style="background-image: url(./assets/vegetable-offer.png);">
                       <h2 class="card-title text-white">30% off</h2>
-                      <p class="text-gray-500 flex-grow-0">Discover a world of treats, toys and <br> essentials handpicked for</p>
+                      <p class="text-gray-100 flex-grow-0">Discover a world of treats, toys and <br> essentials handpicked for</p>
                       <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn btn-primary bg-white text-gray-800 border-none ">Buy Now</button>
                       </div>
                     </div>
                 </div>
@@ -381,12 +380,12 @@
 
 
             <div class=" absolute -top-[300px] md:-top-[220px] left-0 right-0 max-w-full p-4">
-                <div class="md:flex gap-12 bg-gray-200 p-8 rounded-xl">
+                <div class="md:flex gap-12 bg-gray-200 p-8 md:px-36 rounded-xl">
                     <img src="./assets/vegetable-busket.png" alt="">
                 <div>
                     <h1>Get Grocery News!</h1>
                     <p class="py-4">Exclusive training tips, ticks, product deals and more.</p>
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs my-4" />
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xl my-4" />
                     <button class="btn btn-primary bg-green-600 border-none">Subscribe now</button>
                 </div>
                 </div>
@@ -394,17 +393,17 @@
 
 
 
-            <div class="pt-72 md:pt-56 md:grid md:grid-cols-3 gap-12 text-white ">
-                <div>
+            <div class="pt-72 md:pt-56 md:flex gap-12 text-white ">
+                <div class="w-6/12">
                     <img src="./assets/logo-footer.png" alt="">
                     <p class="py-4">Don’t just take our word for it! See what our customers have to say about our fresh produce, fast delivery, and unbeatable prices. Your satisfaction is our priority!</p>
                 </div>
-                <ul class="flex flex-col gap-4">
+                <ul class="flex flex-col gap-4 w-3/12">
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
-                <div class="pt-4 md:p-0">
+                <div class="pt-4 md:p-0 w-3/12">
                     <h3>follow us</h3>
                     <ul class="flex gap-4 text-white text-2xl">
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
